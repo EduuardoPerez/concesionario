@@ -34,11 +34,19 @@
   </div>
   <div class="column">
     <div class="box">
-      <p class="title is-5">Flexible column</p>
-      <p class="subtitle">This column will take up the remaining space available.</p>
+      <p class="title is-5">Sucursales</p>
+      <div class="is-full">
+        <!--The div element for the map -->
+        <div id="map"></div>
+      </div>
     </div>
   </div>
 </div>
-  <script src="script.js"></script>
+  
+  <!-- API key. -->
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvWN114Hcm2QQFhHhC8sIpF5-yxZ4mFHE&callback=initMap">
+  </script>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
